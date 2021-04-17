@@ -1,18 +1,41 @@
 .btn-new-book {
     margin-top: 25px;
-    background: #dc322f;
+    background: #cb4b16;
 }
 
 .add-book {
     margin-top: 15px;
+    display: block;
 }
 
 .d-none {
     display: none;
 }
 
-.d-block {
-    display: block;
+input {
+    border-radius: 10px;
+    outline:none;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li > * {
+    margin-left: 5px;
+}
+
+.btn-delete {
+    background: #dc322f;
+}
+
+.btn-read {
+    background: #b58900;
 }
 
 nav h1 {

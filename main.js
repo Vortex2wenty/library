@@ -1,6 +1,5 @@
 let myLibrary = [];
-const form = document.querySelector('#add-book');
-form.style.display = 'none';
+const form = document.querySelector('.add-book');
 
 function Book(title, author, pages, read) {
     this.title = title;
@@ -67,5 +66,5 @@ function displayBooks(array) {
 
 const newBookBtn = document.querySelector('.btn-new-book')
 newBookBtn.addEventListener('click', () => {
-    form.style.display === 'none' ? form.removeAttribute('style') : form.style.display = 'none';
+    form.classList.contains('d-none') ? form.classList.remove('d-none') : form.classList.add('d-none');
 });
