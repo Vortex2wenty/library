@@ -1,0 +1,45 @@
+.btn-new-book {
+    margin-top: 25px;
+    background: #dc322f;
+}
+
+.add-book {
+    margin-top: 15px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+nav h1 {
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #2aa198;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 10px 10px;
+    color: #dc322f;
+}
+
+body {
+    background: #eee8d5;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+}
+
